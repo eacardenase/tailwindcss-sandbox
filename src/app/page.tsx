@@ -3,8 +3,10 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <main>
-      <div className='container h-full max-w-lg bg-gray-50 p-6'>
-        <h1 className='text-3xl text-blue-800'>Tailwind CSS Sandbox</h1>
+      <div className='container mx-auto h-full max-w-lg bg-gray-50 p-6'>
+        <h1 className='text-center text-3xl text-blue-800'>
+          Tailwind CSS Sandbox
+        </h1>
         <ul className='mt-6'>
           <li className='my-4 border border-blue-200 p-2 text-lg'>
             <Link
