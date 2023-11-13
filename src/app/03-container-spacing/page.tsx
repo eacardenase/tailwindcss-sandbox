@@ -8,7 +8,7 @@ const ContainerSpacing = () => {
   return (
     <main>
       {/* Container */}
-      <div>
+      <div className='container mx-auto'>
         <article>
           <h3>Article One</h3>
           <p>
@@ -20,12 +20,46 @@ const ContainerSpacing = () => {
         </article>
 
         {/* Margin  */}
+        <div className='m-2 bg-slate-100'>Hello Margins</div>
+        <div className='ml-4 bg-slate-100'>Hello Margins</div>
+        <div className='mr-4 bg-slate-100'>Hello Margins</div>
+        <div className='mt-4 bg-slate-100'>Hello Margins</div>
+        <div className='mb-4 bg-slate-100'>Hello Margins</div>
+        <div className='mx-4 bg-slate-100'>Hello Margins</div>
+        <div className='my-4 bg-slate-100'>Hello Margins</div>
+        <div className='mt-[20px] bg-slate-100'>Hello Margins</div>
 
         {/* Padding  */}
+        <div className='bg-slate-300 p-2'>Hello Padding</div>
+        <div className='bg-slate-300 pl-4'>Hello Padding</div>
+        <div className='bg-slate-300 pr-4'>Hello Padding</div>
+        <div className='bg-slate-300 pt-4'>Hello Padding</div>
+        <div className='bg-slate-300 pb-4'>Hello Padding</div>
+        <div className='bg-slate-300 px-4'>Hello Padding</div>
+        <div className='bg-slate-300 py-4'>Hello Padding</div>
+        <div className='bg-slate-300 pt-[20px]'>Hello Padding</div>
 
         {/* Space Between X  */}
+        <div className='mt-4 flex space-x-4'>
+          <div>Item 1</div>
+          <div>Item 2</div>
+          <div>Item 3</div>
+          <div>Item 4</div>
+          <div>Item 5</div>
+          <div>Item 6</div>
+          <div>Item 7</div>
+        </div>
 
         {/* Space Between Y  */}
+        <div className='mt-4 flex flex-col space-y-4'>
+          <div>Item 1</div>
+          <div>Item 2</div>
+          <div>Item 3</div>
+          <div>Item 4</div>
+          <div>Item 5</div>
+          <div>Item 6</div>
+          <div>Item 7</div>
+        </div>
       </div>
     </main>
   );
