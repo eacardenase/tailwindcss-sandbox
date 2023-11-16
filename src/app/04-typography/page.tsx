@@ -8,22 +8,62 @@ const Typography = () => {
   return (
     <main>
       {/* Font Family  */}
+      <div className='font-sans'>Tailwind is Awesome</div>
+      <div className='font-serif'>Tailwind is Awesome</div>
+      <div className='font-mono'>Tailwind is Awesome</div>
 
       {/* Font Size  */}
+      <div className='text-xs'>Tailwind is Awesome</div>
+      <div className='text-sm'>Tailwind is Awesome</div>
+      <div className='text-base'>Tailwind is Awesome</div>
+      <div className='text-lg'>Tailwind is Awesome</div>
+      <div className='text-xl'>Tailwind is Awesome</div>
+      <div className='text-2xl'>Tailwind is Awesome</div>
+      <div className='text-3xl'>Tailwind is Awesome</div>
 
       {/* Font Weight  */}
+      <div className='font-light'>Tailwind is Awesome</div>
+      <div className='font-normal'>Tailwind is Awesome</div>
+      <div className='font-medium'>Tailwind is Awesome</div>
+      <div className='font-semibold'>Tailwind is Awesome</div>
+      <div className='font-bold'>Tailwind is Awesome</div>
 
       {/* Letter Spacing  */}
+      <div className='tracking-tighter'>Tailwind is Awesome</div>
+      <div className='tracking-tight'>Tailwind is Awesome</div>
+      <div className='tracking-normal'>Tailwind is Awesome</div>
+      <div className='tracking-wide'>Tailwind is Awesome</div>
+      <div className='tracking-wider'>Tailwind is Awesome</div>
+      <div className='tracking-widest'>Tailwind is Awesome</div>
 
       {/* Text Alignment  */}
+      <div className='text-left'>Tailwind is Awesome</div>
+      <div className='text-center'>Tailwind is Awesome</div>
+      <div className='text-right'>Tailwind is Awesome</div>
 
       {/* Text Decoration  */}
+      <div className='underline decoration-blue-300 decoration-4'>
+        Tailwind is Awesome
+      </div>
 
       {/* Decoration Style  */}
+      <div className='underline decoration-blue-300 decoration-double decoration-2'>
+        Tailwind is Awesome
+      </div>
+      <div className='underline decoration-blue-300 decoration-wavy decoration-2'>
+        Tailwind is Awesome
+      </div>
 
       {/* Decoration Offset  */}
+      <div className='underline decoration-blue-300 decoration-4 underline-offset-8'>
+        Tailwind is Awesome
+      </div>
 
       {/* Text Transform  */}
+      <p className='normal-case'>Tailwind is Awesome</p>
+      <p className='lowercase'>Tailwind is Awesome</p>
+      <p className='uppercase'>Tailwind is Awesome</p>
+      <p className='capitalize'>Tailwind is Awesome</p>
     </main>
   );
 };
