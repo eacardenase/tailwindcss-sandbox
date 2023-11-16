@@ -8,26 +8,56 @@ const Sizing = () => {
   return (
     <main>
       {/* Width */}
+      <div className='w-4 bg-black text-white'>Hello</div>
+      <div className='w-48 bg-black text-white'>Hello</div>
+      <div className='w-96 bg-black text-white'>Hello</div>
 
       {/* Percentages */}
+      <div className='w-1/4 bg-green-400 text-white'>Hello</div>
+      <div className='w-1/3 bg-green-400 text-white'>Hello</div>
+      <div className='w-1/2 bg-green-400 text-white'>Hello</div>
 
       {/* Width of the viewport */}
+      <div className='w-screen bg-blue-400 text-white'>Hello</div>
 
       {/* 100% of container */}
+      <div className='w-full bg-yellow-400 text-white'>Hello</div>
 
       {/* min/max content */}
 
       {/* Arbitrary width */}
+      <div className='w-[300px] bg-orange-400 text-white'>Hello</div>
 
       {/* Max Width */}
+      <div className='mx-auto max-w-sm bg-purple-400 text-white'>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident
+        voluptatibus saepe ipsam ut incidunt excepturi aliquam deleniti
+        voluptatum blanditiis, officiis dolore quia culpa dicta ab minus optio
+        facere quod? Necessitatibus?
+      </div>
+      <div className='mx-auto max-w-lg bg-slate-400 text-white'>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident
+        voluptatibus saepe ipsam ut incidunt excepturi aliquam deleniti
+        voluptatum blanditiis, officiis dolore quia culpa dicta ab minus optio
+        facere quod? Necessitatibus?
+      </div>
 
       {/* Height (Most of the same options as widths) */}
+      <div className='flex items-end'>
+        <div className='h-24 w-20 bg-orange-500'>hello</div>
+        <div className='h-32 w-20 bg-orange-500'>hello</div>
+        <div className='h-40 w-20 bg-orange-500'>hello</div>
+        <div className='h-48 w-20 bg-orange-500'>hello</div>
+        <div className='h-64 w-20 bg-orange-500'>hello</div>
+        <div className='h-96 w-20 bg-orange-500'>hello</div>
+      </div>
 
       {/* Min Height */}
 
       {/* Max Height */}
 
       {/* Full screen height */}
+      <div className='h-screen bg-blue-300 text-white'>Hello there</div>
     </main>
   );
 };
