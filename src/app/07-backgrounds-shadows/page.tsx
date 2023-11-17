@@ -8,12 +8,66 @@ const BackgroundsAndShadows = () => {
   return (
     <main>
       {/* Background Classes  */}
+      <div
+        style={{
+          backgroundImage: `url("assets/img/img1.jpg")`,
+        }}
+        // className='h-64 w-[1000px] bg-no-repeat'
+        className='h-64 w-72 bg-cover bg-center bg-no-repeat'
+      ></div>
 
       {/* Gradients  */}
+      <div className='h-24 bg-gradient-to-r from-cyan-500 to-purple-500'></div>
+      <div className='h-24 bg-gradient-to-l from-cyan-500 to-purple-500'></div>
+      <div className='h-24 bg-gradient-to-tr from-yellow-300 to-red-500'></div>
+      <div className='h-24 bg-gradient-to-br from-yellow-300 to-red-500'></div>
+      <div className='h-24 bg-gradient-to-bl from-green-500 to-pink-500'></div>
 
       {/* Shadows  */}
+      <div className='ml-4 mt-6 w-96 p-3 shadow'>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nisi
+        dignissimos assumenda deserunt doloribus neque labore odio eveniet.
+        Expedita, eum?
+      </div>
+      <div className='ml-4 mt-6 w-96 p-3 shadow-md'>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nisi
+        dignissimos assumenda deserunt doloribus neque labore odio eveniet.
+        Expedita, eum?
+      </div>
+      <div className='ml-4 mt-6 w-96 p-3 shadow-lg'>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nisi
+        dignissimos assumenda deserunt doloribus neque labore odio eveniet.
+        Expedita, eum?
+      </div>
+      <div className='ml-4 mt-6 w-96 p-3 shadow-xl shadow-cyan-300/30'>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nisi
+        dignissimos assumenda deserunt doloribus neque labore odio eveniet.
+        Expedita, eum?
+      </div>
+      <div className='ml-4 mt-6 w-96 p-3 shadow-2xl'>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nisi
+        dignissimos assumenda deserunt doloribus neque labore odio eveniet.
+        Expedita, eum?
+      </div>
+      <div className='mb-10 ml-4 mt-6 w-96 p-3 shadow-inner shadow-blue-500/60'>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nisi
+        dignissimos assumenda deserunt doloribus neque labore odio eveniet.
+        Expedita, eum?
+      </div>
 
       {/* Mix Blend  */}
+      <div className='flex justify-center -space-x-24'>
+        <div className='bg-blue-400 mix-blend-multiply'>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+          totam quam voluptas error earum veritatis, possimus corporis nulla
+          eveniet tempore.
+        </div>
+        <div className='bg-pink-400 mix-blend-multiply'>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+          velit optio, iusto modi obcaecati magnam veniam est ullam et
+          consectetur!
+        </div>
+      </div>
     </main>
   );
 };
