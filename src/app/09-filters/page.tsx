@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'Filters',
@@ -6,20 +7,133 @@ export const metadata: Metadata = {
 
 const Filters = () => {
   return (
-    <main>
+    <main className='space-y-4'>
       {/* Blur  */}
+      <div className='blur-sm'>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, nam!
+      </div>
+
+      <div className='blur'>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, nam!
+      </div>
+
+      <Image
+        className='blur-xl'
+        src='/assets/img/img1.jpg'
+        alt='image'
+        width={400}
+        height={400}
+      />
 
       {/*  Brightness  */}
+      <Image
+        className='brightness-50'
+        src='/assets/img/img2.jpg'
+        alt='image'
+        width={400}
+        height={400}
+      />
+      <Image
+        className='brightness-100'
+        src='/assets/img/img2.jpg'
+        alt='image'
+        width={400}
+        height={400}
+      />
+      <Image
+        className='brightness-150'
+        src='/assets/img/img2.jpg'
+        alt='image'
+        width={400}
+        height={400}
+      />
 
       {/* Contrast  */}
+      <Image
+        className='contrast-50'
+        src='/assets/img/img3.jpg'
+        alt='image'
+        width={400}
+        height={400}
+      />
+      <Image
+        className='contrast-100'
+        src='/assets/img/img3.jpg'
+        alt='image'
+        width={400}
+        height={400}
+      />
+      <Image
+        className='contrast-150'
+        src='/assets/img/img3.jpg'
+        alt='image'
+        width={400}
+        height={400}
+      />
 
       {/* Grayscale  */}
+      <Image
+        className='grayscale'
+        src='/assets/img/img4.jpg'
+        alt='image'
+        width={400}
+        height={400}
+      />
+      <Image
+        className='grayscale-0'
+        src='/assets/img/img4.jpg'
+        alt='image'
+        width={400}
+        height={400}
+      />
 
       {/* Invert  */}
+      <Image
+        className='invert'
+        src='/assets/img/img4.jpg'
+        alt='image'
+        width={400}
+        height={400}
+      />
 
       {/* Sepia  */}
+      <Image
+        className='sepia'
+        src='/assets/img/img4.jpg'
+        alt='image'
+        width={400}
+        height={400}
+      />
 
       {/* Hue Rotate  */}
+      <Image
+        className='hue-rotate-0'
+        src='/assets/img/img5.jpg'
+        alt='image'
+        width={400}
+        height={400}
+      />
+      <Image
+        className='hue-rotate-15'
+        src='/assets/img/img5.jpg'
+        alt='image'
+        width={400}
+        height={400}
+      />
+      <Image
+        className='hue-rotate-60'
+        src='/assets/img/img5.jpg'
+        alt='image'
+        width={400}
+        height={400}
+      />
+      <Image
+        className='hue-rotate-90'
+        src='/assets/img/img5.jpg'
+        alt='image'
+        width={400}
+        height={400}
+      />
     </main>
   );
 };
