@@ -6,12 +6,94 @@ export const metadata: Metadata = {
 
 const Borders = () => {
   return (
-    <main>
+    <main className='flex flex-col items-center justify-center py-6'>
       {/* Border Width & Colors  */}
+      <div className='m-3 w-96 border p-5'>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
+        adipisci.
+      </div>
+
+      <div className='m-3 w-96 border-2 p-5'>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
+        adipisci.
+      </div>
+
+      <div className='m-3 w-96 border-4 p-5'>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
+        adipisci.
+      </div>
+
+      <div className='m-3 w-96 border-2 border-blue-400 p-5'>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
+        adipisci.
+      </div>
+
+      <div className='m-3 w-96 border-2 border-slate-500 p-5'>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
+        adipisci.
+      </div>
+
+      <div className='m-3 w-96 border-x-2 border-red-500 p-5'>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
+        adipisci.
+      </div>
+
+      <div className='m-3 w-96 border-y-2 border-yellow-500 p-5'>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
+        adipisci.
+      </div>
+
+      <div className='m-3 w-96 border-t-2 border-cyan-500 p-5'>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
+        adipisci.
+      </div>
+
+      <div className='m-3 w-96 border-b-2 border-cyan-500 p-5'>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
+        adipisci.
+      </div>
 
       {/* Border Radius  */}
 
+      <div className='m-3 w-96 rounded border-2 border-green-500 p-5'>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
+        adipisci.
+      </div>
+
+      <div className='m-3 w-96 rounded-md border-2 border-green-500 p-5'>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
+        adipisci.
+      </div>
+
+      <div className='m-3 w-96 rounded-lg border-2 border-green-500 p-5'>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
+        adipisci.
+      </div>
+
+      <div className='m-3 w-96 rounded-xl border-2 border-green-500 p-5'>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
+        adipisci.
+      </div>
+
+      <div className='m-3 w-96 rounded-full border-2 border-green-500 p-5'>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
+        adipisci.
+      </div>
+
+      <div className='m-3 w-96 rounded-t-3xl border-2 border-green-500 p-5'>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
+        adipisci.
+      </div>
+
+      <div className='m-3 w-96 rounded-br-3xl rounded-tl-3xl border-2 border-orange-500 p-5'>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
+        adipisci.
+      </div>
+
       {/* Outline  */}
+      <button className='outline outline-4 outline-offset-4 outline-purple-500'>
+        Click
+      </button>
     </main>
   );
 };
